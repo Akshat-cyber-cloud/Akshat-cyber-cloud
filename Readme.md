@@ -139,7 +139,7 @@ DSA  →  System Design  →  Advanced AI Systems  →  DevOps
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://web-dev-two-sigma.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioakshatgupta.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Akshat--cyber--cloud-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshat-cyber-cloud)
 
 </div>
