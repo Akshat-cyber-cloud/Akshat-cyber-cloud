@@ -100,21 +100,6 @@ Mistral API · OpenAI API · Multi-Agent Systems · Google MediaPipe
 Git · GitHub · Vercel · VS Code
 ```
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Akshat's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akshat-cyber-cloud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-cyber-cloud&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Akshat-cyber-cloud&theme=tokyonight&hide_border=true)
-
-</div>
-
----
 
 ## 📈 Currently Learning
 
