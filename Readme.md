@@ -1,12 +1,12 @@
 <div align="center">
 
-# Hey, I'm Akshat Gupta 👋
+# Hi, I'm Akshat Gupta 👋
 
-### "I Don't Lose — I Win. That's My Job 👑"
+### *"I Don't Lose — I Win. That's My Job 👑"*
 
-**Full Stack Developer · AI Enthusiast · Based in New Delhi 🇮🇳**
+**Full Stack Developer · AI Systems Builder · India 🇮🇳**
 
-*Lovely Professional University*
+*Computer Science @ Lovely Professional University*
 
 </div>
 
@@ -14,44 +14,67 @@
 
 ## 🧠 About Me
 
-- 🎓 Student at **Lovely Professional University**, New Delhi
-- 💻 Full Stack Developer building real-world AI-powered applications
-- 🤖 Passionate about **AI integrations**, multi-agent systems & smart UIs
-- 🚀 Currently building: **Gauntlet AI** — a multi-agent battle platform
-- 🎯 Goal: Ship products that actually solve problems
-- ⚡ Fun fact: My GitHub bio says it all — I don't lose
+- 🎓 CS student at **Lovely Professional University**
+- 💻 Full Stack Developer focused on **AI-powered products**
+- 🤖 Building chatbots, multi-agent systems & real-time AI apps
+- 🚀 Currently building: **Gauntlet AI** — my flagship project
+- 🎯 Mission: Build systems that are not just cool — but actually useful
+- ⚡ Mindset: **Ship fast. Learn faster.**
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🤖 Gauntlet AI
-> Multi-agent AI battle platform — 2 models compete, 1 AI judge evaluates, live leaderboard tracks it all
+---
 
-- Two AI models go head-to-head on any prompt
-- Independent AI judge scores accuracy, clarity & reasoning
-- Real-time leaderboard with win/loss tracking
-- **Stack:** React · Node.js · Express · OpenAI API
+### 🔥 Ember AI — AI Chatbot Platform
+
+> *A utility-first AI chatbot that doesn't just answer — it acts.*
+
+Built on **Mistral**, Ember AI combines real-time information retrieval with action capabilities — drafting emails, fetching live news, and responding with context. Most chatbots stop at Q&A. Ember goes further.
+
+| Feature | Details |
+|--------|---------|
+| 💬 Conversational AI | Powered by Mistral models |
+| 📰 Live News Fetching | Real-time updates based on user context |
+| ✉️ Email Drafting | Intelligently composes messages in-chat |
+| ⚡ Utility-first Design | Information retrieval + action in one interface |
+
+**Stack:** `Node.js` · `Mistral API` · `REST APIs` · `Real-time Data Integration`
 
 ---
 
-### 🎵 Moodify
-> Detects your facial expression in real time and suggests songs that match your mood
+### 🤖 Gauntlet AI — Multi-Agent Battle Platform *(Flagship)*
 
-- Built with **Google MediaPipe** for face landmark detection
-- Maps emotions (happy, sad, angry, neutral) to music genres
-- Zero data stored — runs entirely in the browser
-- **Stack:** React · Google MediaPipe · JavaScript · Node.js
+> *AI vs AI — not just usage, but benchmarking intelligence.*
+
+Two AI models go head-to-head on any prompt. An independent AI judge evaluates both responses in real time across accuracy, clarity, and reasoning — then updates a live leaderboard. Built to benchmark, not just interact.
+
+| Feature | Details |
+|--------|---------|
+| ⚔️ Model vs Model | Two AI models compete on any prompt |
+| 🧠 AI Judge | Scores accuracy, clarity & reasoning |
+| 📊 Live Leaderboard | Real-time win/loss/score tracking |
+| 🔄 Replay System | Run multiple rounds on the same query |
+
+**Stack:** `React` · `Node.js` · `Express` · `OpenAI API`
 
 ---
 
-### 📋 Productivity Dashboard
-> A unified task management app to track goals, priorities and daily workflow
+### 🎵 Moodify — Emotion-Driven Music
 
-- Create, edit, prioritize and complete tasks
-- Visual progress tracking per project
-- Clean, responsive UI
-- **Stack:** React · Node.js · Express · CSS
+> *Your face picks the playlist. No input needed.*
+
+Moodify uses **Google MediaPipe** to detect facial expressions in real time via your webcam, then maps your emotion to personalized music recommendations — entirely in-browser, zero data stored.
+
+| Emotion | Music |
+|---------|-------|
+| 😊 Happy | Upbeat & energetic |
+| 😢 Sad | Calm & soothing |
+| 😠 Angry | High-energy & intense |
+| 😐 Neutral | Chill & lo-fi |
+
+**Stack:** `React` · `Google MediaPipe` · `JavaScript`
 
 ---
 
@@ -59,22 +82,22 @@
 
 **Frontend**
 ```
-HTML5   CSS3   JavaScript   React.js
+React.js · JavaScript · HTML5 · CSS3
 ```
 
 **Backend**
 ```
-Node.js   Express.js   REST APIs
+Node.js · Express.js · REST APIs
 ```
 
-**AI & Tools**
+**AI & Systems**
 ```
-Google MediaPipe   OpenAI API   Multi-Agent Systems
+Mistral API · OpenAI API · Multi-Agent Systems · Google MediaPipe
 ```
 
-**Dev Tools**
+**Tools**
 ```
-Git   GitHub   VS Code   Vercel
+Git · GitHub · Vercel · VS Code
 ```
 
 ---
@@ -96,9 +119,19 @@ Git   GitHub   VS Code   Vercel
 ## 📈 Currently Learning
 
 ```
-DSA  →  System Design  →  Advanced AI  →  DevOps
- 🔥          📐               🤖            🚧
+DSA  →  System Design  →  Advanced AI Systems  →  DevOps
+ 🔥         📐                   🤖                  🚧
 ```
+
+---
+
+## 🧩 What I'm Building Towards
+
+- AI systems that **assist, automate, and act** — not just respond
+- Chatbots that go beyond conversation into **execution**
+- Real-time applications with **intelligent decision layers**
+
+> *The goal isn't to use AI. It's to build with it.*
 
 ---
 
@@ -106,8 +139,8 @@ DSA  →  System Design  →  Advanced AI  →  DevOps
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-web--dev--two--sigma.vercel.app-0A66C2?style=for-the-badge&logo=vercel)](https://web-dev-two-sigma.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Akshat--cyber--cloud-181717?style=for-the-badge&logo=github)](https://github.com/Akshat-cyber-cloud)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://web-dev-two-sigma.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Akshat--cyber--cloud-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshat-cyber-cloud)
 
 </div>
 
@@ -115,8 +148,8 @@ DSA  →  System Design  →  Advanced AI  →  DevOps
 
 <div align="center">
 
-*"Every line of code is a step closer to something great."*
+**"I build systems. Not just projects."**
 
-![Visitor Count](https://komarev.com/ghpvc/?username=Akshat-cyber-cloud&color=6366f1&style=flat-square&label=Profile+Views)
+![Visitor Count](https://komarev.com/ghpvc/?username=Akshat-cyber-cloud&color=7F77DD&style=flat-square&label=Profile+Views)
 
 </div>
