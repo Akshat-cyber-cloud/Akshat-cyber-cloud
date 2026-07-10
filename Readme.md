@@ -8,126 +8,163 @@
 
 *Computer Science @ Lovely Professional University*
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioakshatgupta.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshat-gupta132)
+[![GitHub](https://img.shields.io/badge/GitHub-Akshat--cyber--cloud-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshat-cyber-cloud)
+[![LeetCode](https://img.shields.io/badge/LeetCode-400%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+
 </div>
 
 ---
 
-## 🧠 About Me
+## About Me
 
-- 🎓 CS student at **Lovely Professional University**
-- 💻 Full Stack Developer focused on **AI-powered products**
-- 🤖 Building chatbots, multi-agent systems & real-time AI apps
-- 🚀 Currently building: **Gauntlet AI** — my flagship project
-- 🎯 Mission: Build systems that are not just cool — but actually useful
-- ⚡ Mindset: **Ship fast. Learn faster.**
+I'm a third-year Computer Science student at Lovely Professional University (graduating 2027), building full-stack applications with a focus on AI and agentic systems. I'm currently looking for **internship opportunities** in Full Stack Development, SDE, and AI/LLM engineering roles.
 
----
+I like building things that actually do work, not just answer questions — multi-agent systems, real-time collaborative tools, and apps with an AI layer that takes action instead of just responding. My two largest projects, **Gauntlet AI** and **CodeSpace**, both grew out of that: one benchmarks LLMs against each other, the other is a Kubernetes-backed coding sandbox with a built-in AI pair programmer.
 
-## 🚀 Featured Projects
-
----
-
-### 🔥 Ember AI — AI Chatbot Platform
-
-> *A utility-first AI chatbot that doesn't just answer — it acts.*
-
-Built on **Mistral**, Ember AI combines real-time information retrieval with action capabilities — drafting emails, fetching live news, and responding with context. Most chatbots stop at Q&A. Ember goes further.
-
-| Feature | Details |
-|--------|---------|
-| 💬 Conversational AI | Powered by Mistral models |
-| 📰 Live News Fetching | Real-time updates based on user context |
-| ✉️ Email Drafting | Intelligently composes messages in-chat |
-| ⚡ Utility-first Design | Information retrieval + action in one interface |
-
-**Stack:** `Node.js` · `Mistral API` · `REST APIs` · `Real-time Data Integration`
+- 3rd-year CS student at **Lovely Professional University**, Class of 2027
+- Actively seeking **internships** in Full Stack / SDE / AI-GenAI roles
+- Comfortable across the MERN stack, TypeScript, and LangChain/LangGraph-based AI tooling
+- Top 15 at Sheryians Hackathon · 2nd Place at Hack N Hunt 2.0 (100+ teams)
+- 400+ problems solved on LeetCode, with a strong DSA foundation
+- Ship fast, iterate in public, and can walk through every design decision in my projects — including where AI tools helped and where I built things by hand
 
 ---
 
-### 🤖 Gauntlet AI — Multi-Agent Battle Platform *(Flagship)*
+## Featured Projects
+
+### Gauntlet AI — Multi-Agent Battle Platform *(Flagship)*
 
 > *AI vs AI — not just usage, but benchmarking intelligence.*
 
-Two AI models go head-to-head on any prompt. An independent AI judge evaluates both responses in real time across accuracy, clarity, and reasoning — then updates a live leaderboard. Built to benchmark, not just interact.
+Two AI models go head-to-head on any prompt. An independent AI judge evaluates both responses in real time across accuracy, clarity, and reasoning — then updates a live leaderboard.
 
 | Feature | Details |
 |--------|---------|
-| ⚔️ Model vs Model | Two AI models compete on any prompt |
-| 🧠 AI Judge | Scores accuracy, clarity & reasoning |
-| 📊 Live Leaderboard | Real-time win/loss/score tracking |
-| 🔄 Replay System | Run multiple rounds on the same query |
+| Model vs Model | Two AI models compete on any prompt |
+| AI Judge (Ensemble) | Scores accuracy, clarity & reasoning |
+| Live Leaderboard | Real-time win/loss/score tracking via SSE |
+| Replay System | Run multiple rounds on the same query |
 
-**Stack:** `React` · `Node.js` · `Express` · `OpenAI API`
+**Stack:** `React 19` · `Node.js` · `Express` · `LangGraph` · `Groq` · `MongoDB` · `Google OAuth`
 
 ---
 
-### 🎵 Moodify — Emotion-Driven Music
+### CodeSpace — Collaborative Coding Sandbox
+
+> *Kubernetes-backed, real-time collaborative code environment with an AI pair-programmer built in.*
+
+| Feature | Details |
+|--------|---------|
+| Kubernetes + NGINX Ingress | Isolated per-session sandboxes |
+| SSE Streaming | Live code/output sync |
+| LangChain + Mistral Agent | Tool-calling AI assistant inside the editor |
+| Skaffold CI/CD | Fast iterative deploys |
+
+**Stack:** `Kubernetes` · `LangChain` · `Mistral` · `Node.js` · `React`
+
+---
+
+### Moodify — Emotion-Driven Music
 
 > *Your face picks the playlist. No input needed.*
 
-Moodify uses **Google MediaPipe** to detect facial expressions in real time via your webcam, then maps your emotion to personalized music recommendations — entirely in-browser, zero data stored.
-
-| Emotion | Music |
-|---------|-------|
-| 😊 Happy | Upbeat & energetic |
-| 😢 Sad | Calm & soothing |
-| 😠 Angry | High-energy & intense |
-| 😐 Neutral | Chill & lo-fi |
+Detects facial expressions in real time via webcam using Google MediaPipe, then maps emotion to personalized music — entirely in-browser, zero data stored.
 
 **Stack:** `React` · `Google MediaPipe` · `JavaScript`
 
 ---
 
-## 🛠️ Tech Stack
+### Ember AI — AI Chatbot Platform
+
+> *A utility-first AI chatbot that doesn't just answer — it acts.*
+
+Built on Mistral, combines real-time info retrieval with action capabilities — drafting emails, fetching live news, responding with context.
+
+**Stack:** `Node.js` · `Mistral API` · `REST APIs`
+
+---
+
+## Tech Stack
+
+**Languages**
+
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **Frontend**
-```
-React.js · JavaScript · HTML5 · CSS3
-```
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 **Backend**
-```
-Node.js · Express.js · REST APIs
-```
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 **AI & Systems**
-```
-Mistral API · OpenAI API · Multi-Agent Systems · Google MediaPipe
-```
 
-**Tools**
-```
-Git · GitHub · Vercel · VS Code
-```
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
 
+**DevOps & Tools**
 
-## 📈 Currently Learning
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+---
+
+## Currently Learning
 
 ```
 DSA  →  System Design  →  Advanced AI Systems  →  DevOps
- 🔥         📐                   🤖                  🚧
 ```
 
 ---
 
-## 🧩 What I'm Building Towards
-
-- AI systems that **assist, automate, and act** — not just respond
-- Chatbots that go beyond conversation into **execution**
-- Real-time applications with **intelligent decision layers**
-
-> *The goal isn't to use AI. It's to build with it.*
-
----
-
-## 🔗 Connect With Me
+## GitHub Stats
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioakshatgupta.netlify.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Akshat--cyber--cloud-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshat-cyber-cloud)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Akshat-cyber-cloud&show_icons=true&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-cyber-cloud&layout=compact&hide_border=true" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Akshat-cyber-cloud&hide_border=true" />
 
 </div>
+
+---
+
+## Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akshat-cyber-cloud/Akshat-cyber-cloud/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akshat-cyber-cloud/Akshat-cyber-cloud/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Akshat-cyber-cloud/Akshat-cyber-cloud/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+> ⚠️ This image is generated by a GitHub Action (setup below) — it won't render until you push the workflow and let it run once.
+
+---
+
+## What I'm Building Towards
+
+- AI systems that **assist, automate, and act** — not just respond
+- Chatbots and agents that go beyond conversation into **execution**
+- Real-time applications with **intelligent decision layers**
+
+> *The goal isn't to use AI. It's to build with it.*
 
 ---
 
