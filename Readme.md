@@ -49,6 +49,8 @@ Two AI models go head-to-head on any prompt. An independent AI judge evaluates b
 
 **Stack:** `React 19` · `Node.js` · `Express` · `LangGraph` · `Groq` · `MongoDB` · `Google OAuth`
 
+**Live:** [gauntlet-ai-demo-link.com](https://gauntlet-ai-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
+
 ---
 
 ### CodeSpace — Collaborative Coding Sandbox
@@ -64,15 +66,7 @@ Two AI models go head-to-head on any prompt. An independent AI judge evaluates b
 
 **Stack:** `Kubernetes` · `LangChain` · `Mistral` · `Node.js` · `React`
 
----
-
-### Moodify — Emotion-Driven Music
-
-> *Your face picks the playlist. No input needed.*
-
-Detects facial expressions in real time via webcam using Google MediaPipe, then maps emotion to personalized music — entirely in-browser, zero data stored.
-
-**Stack:** `React` · `Google MediaPipe` · `JavaScript`
+**Live:** [codespace-demo-link.com](https://codespace-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
 
 ---
 
@@ -83,6 +77,8 @@ Detects facial expressions in real time via webcam using Google MediaPipe, then 
 Built on Mistral, combines real-time info retrieval with action capabilities — drafting emails, fetching live news, responding with context.
 
 **Stack:** `Node.js` · `Mistral API` · `REST APIs`
+
+**Live:** [ember-ai-demo-link.com](https://ember-ai-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
 
 ---
 
