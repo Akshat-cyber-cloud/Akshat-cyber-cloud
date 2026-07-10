@@ -11,7 +11,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioakshatgupta.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshat-gupta132)
 [![GitHub](https://img.shields.io/badge/GitHub-Akshat--cyber--cloud-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshat-cyber-cloud)
-[![LeetCode](https://img.shields.io/badge/LeetCode-400%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-400%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/aakshat11g/)
 
 </div>
 
@@ -49,7 +49,7 @@ Two AI models go head-to-head on any prompt. An independent AI judge evaluates b
 
 **Stack:** `React 19` · `Node.js` · `Express` · `LangGraph` · `Groq` · `MongoDB` · `Google OAuth`
 
-**Live:** [gauntlet-ai-demo-link.com](https://gauntlet-ai-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
+**Live:** [gauntlet-ai-demo-link.com](https://web-dev-two-sigma.vercel.app/) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud/WebDev/tree/main/Project2)
 
 ---
 
@@ -85,7 +85,7 @@ Runs parallel specialist agents over financial, news, SEC, and reputation data, 
 
 **Stack:** `Kubernetes` · `LangChain` · `Mistral` · `Node.js` · `React`
 
-**Live:** [codespace-demo-link.com](https://codespace-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
+**Live:** [codespace-demo-link.com](https://codespace-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud/CodeSpace)
 
 ---
 
@@ -97,7 +97,7 @@ Built on Mistral, combines real-time info retrieval with action capabilities —
 
 **Stack:** `Node.js` · `Mistral API` · `REST APIs`
 
-**Live:** [ember-ai-demo-link.com](https://ember-ai-demo-link.com) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
+**Live:** [ember-ai-demo-link.com](https://webdev-6.onrender.com/) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud)
 
 ---
 
