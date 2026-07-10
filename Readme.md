@@ -53,6 +53,25 @@ Two AI models go head-to-head on any prompt. An independent AI judge evaluates b
 
 ---
 
+### Clario — Multi-Agent Investment Research Terminal
+
+> *AI agent analyzing company financial data to invest or not.*
+
+Runs parallel specialist agents over financial, news, SEC, and reputation data, then fans them into a Decision Agent that outputs a structured Invest/Hold/Pass verdict — with a dashboard that adapts its layout for public, private, or international companies.
+
+| Feature | Details |
+|--------|---------|
+| Parallel Multi-Agent Pipeline | 4 specialist agents (Financial, News, Risk, Trust) fan-out via LangGraph |
+| Decision Agent | Synthesizes agent reports into a 0–100 score + Invest/Hold/Pass verdict |
+| Live Data Ingestion | Finnhub, SEC EDGAR, and Tavily fetched in parallel per query |
+| Adaptive Dashboard | Falls back to a Sentiment & Data Status card when financials are missing (e.g. Indian/private stocks) |
+
+**Stack:** `React` · `Node.js` · `Express` · `LangGraph` · `Groq` · `Finnhub` · `SEC EDGAR` · `Tavily`
+
+**Live:** [invest-agent-xi.vercel.app](https://invest-agent-xi.vercel.app) · **Code:** [GitHub](https://github.com/Akshat-cyber-cloud/Invest_Agent)
+
+---
+
 ### CodeSpace — Collaborative Coding Sandbox
 
 > *Kubernetes-backed, real-time collaborative code environment with an AI pair-programmer built in.*
