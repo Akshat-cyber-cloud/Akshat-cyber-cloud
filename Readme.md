@@ -36,16 +36,11 @@ I like building things that actually do work, not just answer questions — mult
 
 ### Gauntlet AI — Multi-Agent Battle Platform *(Flagship)*
 
-> *AI vs AI — not just usage, but benchmarking intelligence.*
+Most AI demos show you one model answering one question. Gauntlet AI asks a different question: *which model is actually better, and by how much?*
 
-Two AI models go head-to-head on any prompt. An independent AI judge evaluates both responses in real time across accuracy, clarity, and reasoning — then updates a live leaderboard.
+Two LLMs are given the same prompt and respond independently. A third model acts as judge, scoring both on accuracy, clarity, and reasoning — not just picking a winner, but explaining why. Every match updates a persistent leaderboard, so instead of a single anecdotal comparison you get a running record of which models hold up under pressure across hundreds of prompts. Built the replay system specifically so results aren't a one-off — you can re-run the same prompt and see if the judge's call was consistent or a fluke.
 
-| Feature | Details |
-|--------|---------|
-| Model vs Model | Two AI models compete on any prompt |
-| AI Judge (Ensemble) | Scores accuracy, clarity & reasoning |
-| Live Leaderboard | Real-time win/loss/score tracking via SSE |
-| Replay System | Run multiple rounds on the same query |
+The interesting engineering problem here wasn't calling two APIs — it was making the judging trustworthy. That meant structuring the judge prompt to force explicit criteria-by-criteria reasoning before a verdict, and streaming all three model responses over SSE so the UI never feels like it's stalled waiting on the slowest model.
 
 **Stack:** `React 19` · `Node.js` · `Express` · `LangGraph` · `Groq` · `MongoDB` · `Google OAuth`
 
@@ -55,16 +50,9 @@ Two AI models go head-to-head on any prompt. An independent AI judge evaluates b
 
 ### Clario — Multi-Agent Investment Research Terminal
 
-> *AI agent analyzing company financial data to invest or not.*
+Ask Clario about a company and it doesn't hand you a canned summary — it dispatches four specialist agents in parallel: one pulls financials, one scans recent news, one checks SEC filings for risk signals, one gauges public reputation. A fifth Decision Agent then synthesizes all four reports into a single 0–100 score and a clear Invest / Hold / Pass verdict, with the reasoning behind it visible, not hidden.
 
-Runs parallel specialist agents over financial, news, SEC, and reputation data, then fans them into a Decision Agent that outputs a structured Invest/Hold/Pass verdict — with a dashboard that adapts its layout for public, private, or international companies.
-
-| Feature | Details |
-|--------|---------|
-| Parallel Multi-Agent Pipeline | 4 specialist agents (Financial, News, Risk, Trust) fan-out via LangGraph |
-| Decision Agent | Synthesizes agent reports into a 0–100 score + Invest/Hold/Pass verdict |
-| Live Data Ingestion | Finnhub, SEC EDGAR, and Tavily fetched in parallel per query |
-| Adaptive Dashboard | Falls back to a Sentiment & Data Status card when financials are missing (e.g. Indian/private stocks) |
+The harder problem was making it work for companies that *don't* have clean data — Indian stocks, private companies, anything without full SEC coverage. Rather than showing a broken dashboard when financials come back empty, Clario detects the gap and falls back to a Sentiment & Data Status view built from whatever signal *is* available. That fallback logic — deciding what to show when the ideal data doesn't exist — was the real design challenge, not just wiring up the agent pipeline.
 
 **Stack:** `React` · `Node.js` · `Express` · `LangGraph` · `Groq` · `Finnhub` · `SEC EDGAR` · `Tavily`
 
@@ -74,14 +62,9 @@ Runs parallel specialist agents over financial, news, SEC, and reputation data, 
 
 ### CodeSpace — Collaborative Coding Sandbox
 
-> *Kubernetes-backed, real-time collaborative code environment with an AI pair-programmer built in.*
+CodeSpace is a real-time coding environment where every user session runs in its own isolated Kubernetes pod, not a shared container — so one person's runaway process can't take down someone else's session. Code changes and terminal output stream over SSE, and a LangChain-orchestrated Mistral agent sits inside the editor as an actual tool-calling assistant: it can read the current file, run commands, and suggest fixes in context, rather than just answering questions in a side chat.
 
-| Feature | Details |
-|--------|---------|
-| Kubernetes + NGINX Ingress | Isolated per-session sandboxes |
-| SSE Streaming | Live code/output sync |
-| LangChain + Mistral Agent | Tool-calling AI assistant inside the editor |
-| Skaffold CI/CD | Fast iterative deploys |
+NGINX Ingress handles routing traffic to the correct pod per session, and Skaffold drives the local dev-to-deploy loop so changes to the sandbox image don't mean a slow manual rebuild every time. This was less "add AI to an editor" and more "design the infrastructure so AI-in-the-loop doesn't compromise isolation or speed."
 
 **Stack:** `Kubernetes` · `LangChain` · `Mistral` · `Node.js` · `React`
 
@@ -91,9 +74,7 @@ Runs parallel specialist agents over financial, news, SEC, and reputation data, 
 
 ### Ember AI — AI Chatbot Platform
 
-> *A utility-first AI chatbot that doesn't just answer — it acts.*
-
-Built on Mistral, combines real-time info retrieval with action capabilities — drafting emails, fetching live news, responding with context.
+Ember is built around one belief: most chatbots stop at answering, when the actually useful version acts. On top of a Mistral-powered conversational core, Ember can pull live news into a response and draft an email directly from the conversation — combining retrieval and action in the same interface instead of treating them as separate features bolted together.
 
 **Stack:** `Node.js` · `Mistral API` · `REST APIs`
 
